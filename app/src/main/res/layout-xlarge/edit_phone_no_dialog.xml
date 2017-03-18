@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/phone_no"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp">
+
+    <EditText
+        android:id="@+id/input_phone_no"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/Phone_No"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:maxLength="10"/>
+</android.support.design.widget.TextInputLayout>

@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Packman</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_screen">Packman</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_profile">My Profile</string>
+    <string name="nav_item_addresses">My Address</string>
+    <string name="nav_item_payment">Payment info</string>
+    <string name="nav_item_help">Help</string>
+    <string name="nav_item_share">Share</string>
+    <string name="nav_item_about">About us</string>
+    <string name="nav_item_logout">Logout</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_profile</item>
+        <item>@string/nav_item_addresses</item>
+        <item>@string/nav_item_payment</item>
+        <item>@string/nav_item_help</item>
+        <item>@string/nav_item_share</item>
+        <item>@string/nav_item_about</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+
+    <string-array name="state_array">
+       <item>AR</item>
+        <item>AS</item>
+        <item>BR</item>
+        <item>CG</item>
+        <item>GA</item>
+        <item>GJ</item>
+        <item>HR</item>
+        <item>HP</item>
+        <item>JK</item>
+        <item>JH</item>
+        <item>KA</item>
+        <item>KL</item>
+        <item>MP</item>
+        <item>MH</item>
+        <item>MN</item>
+        <item>ML</item>
+        <item>MZ</item>
+        <item>NL</item>
+        <item>OR</item>
+        <item>PB</item>
+        <item>RJ</item>
+        <item>SK</item>
+        <item>TN</item>
+        <item>TR</item>
+        <item>UK</item>
+        <item>UP</item>
+        <item>WB</item>
+        <item>TN</item>
+        <item>TR</item>
+        <item>AN</item>
+        <item>CH</item>
+        <item>DH</item>
+        <item>DD</item>
+        <item>DL</item>
+        <item>LD</item>
+        <item>PY</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+    <string name="hint_name"><b>Receiver Name</b></string>
+    <string name="select_pickup_time">Select Pickup Time</string>
+    <string name="enter_time">Select Pickup Time</string>
+    <string name="address_street1">Street 1</string>
+    <string name="address_street2">Street 2</string>
+    <string name="address_city">City</string>
+    <string name="address_pin">Pincode</string>
+    <string name="schedule_pickup">Schedule Pickup</string>
+    <string name="update_shipment">Update Shipment</string>
+    <string name="delete_shipment">Delete Shipment</string>
+
+    <string name="err_msg_name">Enter valid full name</string>
+    <string name="err_msg_address">Enter valid address</string>
+    <string name="err_msg_city">Enter valid city name</string>
+    <string name="err_msg_pin">Enter valid pincode</string>
+    <string name="address_landmark">Nearest LandMark if Any</string>
+
+    <string name="aboutus"><![CDATA[Lorem ipsum dolor sit amet,
+    consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+    magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+    sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+    rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+    Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+    enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
+    rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+    blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.]]></string>
+    <!-- tabs on home activity -->
+    <string name="incoming_tab">Incoming Shipments</string>
+    <string name="outgoing_tab">Outgoing Shipments</string>
+
+    <!-- URL'S -->
+    <!--gennymotion is 10.0.3.2 AND EMULATOR IS 10.0.2.2 -->
+    <!--string name="get_shipment_url">http://a165569e.ngrok.io/shipments/</string>-->
+    <!--<string name="get_shipment_url">http://10.0.3.2:8080/shipments/</string>-->
+    <!--<string name="user_url">http://10.0.3.2:8080/person/user/</string>-->
+
+    <string name="view_my_addresses">View stored addresses</string>
+    <string name="user_name">User Name</string>
+    <string name="Phone_No">Phone No</string>
+    <string name="address_state">state</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="box_length_in_cm">Length in CM</string>
+    <string name="box_breadth_in_cm">Breadth in CM</string>
+    <string name="box_height_in_cm">Height in CM</string>
+    <string name="box_weight_in_kg">Weight in Kg</string>
+    <string name="Calculate_price">Calculate</string>
+</resources>

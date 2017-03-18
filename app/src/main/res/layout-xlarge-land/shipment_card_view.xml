@@ -1,0 +1,66 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:clickable="true"
+android:foreground="?android:attr/selectableItemBackground"
+app:cardUseCompatPadding="true">
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <!--  ListRow Left side Thumbnail shipment image -->
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/boxImage"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:src="@drawable/ic_location" />
+    </LinearLayout>
+
+    <!-- Title Of receiver-->
+    <TextView
+        android:id="@+id/receiverNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="@color/darkTab"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!--  price -->
+    <TextView
+        android:id="@+id/PriceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/receiverNameTV"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="10dip" />
+
+    <!-- status at right end -->
+    <TextView
+        android:id="@+id/StatusTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/receiverNameTV"
+        android:layout_marginRight="5dip"
+        android:gravity="right"
+        android:textColor="#ec3818"
+        android:textSize="10dip"
+        android:textStyle="bold" />
+</RelativeLayout>
+</android.support.v7.widget.CardView>
+

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "593443888502",
+    "project_id": "packman-android"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593443888502:android:6af3e77ae1844603",
+        "android_client_info": {
+          "package_name": "app.packman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593443888502-omvjn8qujhovvdpvpkrmut2c6aqavm1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.packman",
+            "certificate_hash": "0171CFA5D40828A172B3D31585B459CA499E7500"
+          }
+        },
+        {
+          "client_id": "593443888502-m7us0rso34ekq8pkdkd2vudbrn5rkcgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbzmm2z3thcQJQS1Ei84_zmZhYfu9J0mM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
